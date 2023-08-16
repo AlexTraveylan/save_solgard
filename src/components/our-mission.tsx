@@ -4,7 +4,7 @@ import { Button } from "./ui/button"
 
 export function OurMission() {
   return (
-    <div className="w-[100vw] p-5">
+    <div className="w-full p-5">
       <div className="flex gap-5 flex flex-wrap justify-center items-center">
         <div className="min-w-[360px] max-w-[500px] p-2">
           <h1 className="text-center font-bold">Our Mission</h1>
@@ -20,7 +20,7 @@ export function OurMission() {
             </Link>
           </div>
         </div>
-        <Image src="/emba2.png" alt="logo legend of solgard" width={700} height={700} />
+        <Image className="p-2" src="/emba2.png" alt="logo legend of solgard" width={700} height={700} />
       </div>
     </div>
   )

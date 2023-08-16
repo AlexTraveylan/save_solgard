@@ -20,7 +20,7 @@ export function GamePresentation() {
     },
   ]
   return (
-    <div className="w-[100vw] p-5">
+    <div className="w-full p-5">
       <div className="flex gap-5 flex flex-wrap justify-center items-center">
         <Link href="https://snowprintstudios.com/solgard/" target="_blank">
           <Image src="/SolFeatureOptimized.png" alt="logo legend of solgard" width={700} height={700} />
