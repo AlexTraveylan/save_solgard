@@ -23,7 +23,7 @@ export function GamePresentation() {
     <div className="w-full p-5">
       <div className="flex gap-5 flex flex-wrap justify-center items-center">
         <Link href="https://snowprintstudios.com/solgard/" target="_blank">
-          <Image src="/SolFeatureOptimized.png" alt="logo legend of solgard" width={700} height={700} />
+          <Image src="/SolFeatureOptimized.png" alt="logo legend of solgard" width={700} height={700} className="hover:scale-110 transition-all" />
         </Link>
         <div className="min-w-[360px] max-w-[500px] p-2">
           <h2 className="font-bold text-center">Welcome to Solgard Security Central: Ensuring a Safe Battle Against Ragnarok!</h2>

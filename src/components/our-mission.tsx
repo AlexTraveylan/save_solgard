@@ -20,7 +20,7 @@ export function OurMission() {
             </Link>
           </div>
         </div>
-        <Image className="p-2" src="/emba2.png" alt="logo legend of solgard" width={700} height={700} />
+        <Image className="p-2 hover:scale-110 transition-all rounded" src="/emba2.png" alt="logo legend of solgard" width={700} height={700} />
       </div>
     </div>
   )
