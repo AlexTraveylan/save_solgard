@@ -1,8 +1,8 @@
 "use client"
 
-import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useState } from "react"
+import { Moon, Sun } from "../../node_modules/lucide-react"
 
 export function SwitchTheme() {
   const { systemTheme, setTheme } = useTheme()
