@@ -1,6 +1,7 @@
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Providers } from "@/components/theme-provider"
+import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={cn("font-sans dark:bg-gradient-to-r dark:from-gray-700 dark:via-gray-900 dark:to-black", inter.className)}>
           <Header />
           <main className="flex flex-grow justify-center">{children}</main>
+          <Toaster />
           <Footer />
         </body>
       </Providers>
