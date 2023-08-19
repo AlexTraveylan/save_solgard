@@ -21,7 +21,7 @@ export function GamePresentation() {
   ]
   return (
     <div className="w-full p-5">
-      <div className="flex gap-5 flex-wrap justify-center items-center">
+      <div className="flex gap-5 flex flex-wrap justify-center items-center">
         <Link href="https://snowprintstudios.com/solgard/" target="_blank">
           <Image src="/SolFeatureOptimized.png" alt="logo legend of solgard" width={700} height={700} className="hover:scale-110 transition-all" />
         </Link>
