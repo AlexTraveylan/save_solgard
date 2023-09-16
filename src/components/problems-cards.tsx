@@ -48,7 +48,11 @@ export function PendingProblemCard({ problem }: { problem: ProblemSubmission }) 
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-between">
-        <div>{problem.content}</div>
+        <div>
+          {problem.content.split("\n").map((line, index) => (
+            <p key={`${index}_pending`}>{line}</p>
+          ))}
+        </div>
         {isModifying && <ModifyStatutForm id_problem={problem.id} current_statut={problem.statut} />}
       </CardContent>
       <CardFooter className="flex justify-between">
@@ -94,11 +98,18 @@ export function ValidedProblemCard({ problem }: { problem: ProblemSubmission }) 
       <CardHeader>
         <CardTitle>{problem.title}</CardTitle>
         <CardDescription>
-          <span className="text-green-400">Problem validated by an admin</span>. Make the public explaination.
+          <h3>
+            <span className="text-green-400">Problem validated by an admin</span>. Make the public explaination.
+          </h3>
+          {problem.comment && <h3>Statut reason : {problem.comment}</h3>}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-between">
-        <div>{problem.content}</div>
+        <div>
+          {problem.content.split("\n").map((line, index) => (
+            <p key={`${index}_validated`}>{line}</p>
+          ))}
+        </div>
         {isModifying && <ModifyStatutForm id_problem={problem.id} current_statut={problem.statut} />}
       </CardContent>
       <CardFooter className="flex justify-between">
@@ -143,11 +154,18 @@ export function RejectedProblemCard({ problem }: { problem: ProblemSubmission })
       <CardHeader>
         <CardTitle>{problem.title}</CardTitle>
         <CardDescription>
-          <span className="text-red-400">Problem rejected by an admin</span>. Ignore it.
+          <h3>
+            <span className="text-red-400">Problem rejected by an admin</span>. Ignore it.
+          </h3>
+          {problem.comment && <h3>Statut reason : {problem.comment}</h3>}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex justify-between">
-        <div>{problem.content}</div>
+        <div>
+          {problem.content.split("\n").map((line, index) => (
+            <p key={`${index}_rejected`}>{line}</p>
+          ))}
+        </div>
         {isModifying && <ModifyStatutForm id_problem={problem.id} current_statut={problem.statut} />}
       </CardContent>
       <CardFooter className="flex justify-between">
