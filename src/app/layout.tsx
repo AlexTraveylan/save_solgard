@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <Providers>
-        <body className={cn("font-sans dark:bg-black flex flex-col min-h-screen", inter.className)}>
+        <body className={cn("font-sans dark:bg-slate-950 flex flex-col min-h-screen", inter.className)}>
           <Header />
           <main className="flex-grow">{children}</main>
           <Toaster />
