@@ -28,7 +28,7 @@ class ProblemSubmissionService implements Service {
     return await prisma.problemSubmission.findMany()
   }
 
-  async create(problem: Omit<ProblemSubmission, "id" | "createdAt" | "updatedAt">): Promise<ProblemSubmission> {
+  async create(problem: Omit<ProblemSubmission, "id" | "createdAt" | "updatedAt" | "comment">): Promise<ProblemSubmission> {
     return await prisma.problemSubmission.create({
       data: {
         ...problem,
