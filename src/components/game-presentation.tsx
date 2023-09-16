@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Button } from "./ui/button"
 
 export function GamePresentation() {
   const features: { title: string; content: string }[] = [
@@ -21,7 +22,7 @@ export function GamePresentation() {
   ]
   return (
     <div className="w-full p-5">
-      <div className="flex gap-5 flex flex-wrap justify-center items-center">
+      <div className="flex gap-5 flex-wrap justify-center items-center">
         <Link href="https://snowprintstudios.com/solgard/" target="_blank">
           <Image src="/SolFeatureOptimized.png" alt="logo legend of solgard" width={700} height={700} className="hover:scale-110 transition-all" />
         </Link>
@@ -44,6 +45,14 @@ export function GamePresentation() {
                 </li>
               ))}
             </ul>
+            <div className="flex gap-5 justify-center mt-5">
+              <Link href="/confirmed_brechs">
+                <Button>Explore</Button>
+              </Link>
+              <Link href="/signal_brechs">
+                <Button>Share</Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

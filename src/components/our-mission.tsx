@@ -5,7 +5,7 @@ import { Button } from "./ui/button"
 export function OurMission() {
   return (
     <div className="w-full p-5">
-      <div className="flex gap-5 flex flex-wrap justify-center items-center">
+      <div className="flex gap-5 flex-wrap justify-center items-center">
         <div className="min-w-[360px] max-w-[500px] p-2">
           <h1 className="text-center font-bold">Our Mission</h1>
           <p className="mt-2">
