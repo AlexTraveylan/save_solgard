@@ -58,7 +58,7 @@ export function RequestProblemForm() {
     <Card className="min-w-[350px] w-full max-w-[700px]">
       <CardHeader>
         <CardTitle>Submit a problem</CardTitle>
-        <CardDescription>If you've found a brech in the game, describe it.</CardDescription>
+        <CardDescription>If you've found a breach in the game, describe it.</CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>
@@ -80,7 +80,7 @@ export function RequestProblemForm() {
               name="content"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Describe the brech :</FormLabel>
+                  <FormLabel>Describe the breach :</FormLabel>
                   <FormControl>
                     <Textarea {...field} rows={15} />
                   </FormControl>

@@ -29,11 +29,13 @@ export function GamePresentation() {
         <div className="min-w-[360px] max-w-[500px] p-2">
           <h2 className="font-bold text-center">Welcome to Solgard Security Central: Ensuring a Safe Battle Against Ragnarok!</h2>
           <p className="mt-5">
-            In the mystical realm of Solgard, winter's icy grip is more than just a seasonal change. The world teeters on the brink of Ragnarok,
-            and creatures lie trapped within chilling ice crystals. Only Embla, blessed by the Sun Goddess, stands against this eternal frost,
-            rallying an army of creatures to restore Solgard to its former glory. While you immerse yourself in Snowprint Studio's debut title,
-            exploring its plethora of game modes and engaging storylines, we're here to ensure your gaming experience remains as secure as
-            Solgard's fortresses!
+            Our primary goal is to provide a comprehensive resource for Solgard players to identify and address glitches, cheats, and bugs within
+            the game. We aim to uncover these issues and create a platform for gamers like you to report your discoveries. Our mission is twofold:
+            first, we expose these glitches, cheats, and bugs to shed light on their existence. Second, we encourage players to report their
+            findings, enabling us to compile a detailed inventory of issues within the game. By doing so, we hope to draw attention to these
+            problems so that the game developers can take prompt action to correct them. Our ultimate aim is to enhance the overall gaming
+            experience and make the competition more enjoyable for all Solgard enthusiasts. Together, we can contribute to a more entertaining and
+            fair gaming environment.
           </p>
           <div className="mt-2">
             <h3 className="font-bold text-center">What We Offer:</h3>

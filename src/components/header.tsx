@@ -15,13 +15,13 @@ export function Header() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href="/confirmed_brechs" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>See brechs</NavigationMenuLink>
+              <Link href="/confirmed_breachs" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>See breachs</NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/signal_brechs" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>Report brechs</NavigationMenuLink>
+              <Link href="/signal_breachs" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>Report breachs</NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>

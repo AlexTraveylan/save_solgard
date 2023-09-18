@@ -1,36 +1,37 @@
-import { BrechImage, ConfirmedBrechs } from "./type"
+import { BreachImage, ConfirmedBreachs } from "./type"
 
-const image1: BrechImage = {
+const image1: BreachImage = {
   alt: "1st hit",
   url: "/image1.png",
-  description: "Make some dommage to the boss, and scan memories slots with this number.\nHere i found 118291 memories slots with this number.",
+  description: "Inflict some damage to the boss and scan memory slots with this number.\nHere, I found 118,291 memory slots with this number.",
 }
 
-const image2: BrechImage = {
+const image2: BreachImage = {
   alt: "second hit",
   url: "/image2.png",
-  description: "Evolve the score, then search again memories slots evolved from old score to new score.\nOnly 4 slot found.",
+  description:
+    "Elevate the score by defeating the boss again, then search for memory slots that have evolved from the old score to the new one.\nI found only 4 matching memory slots.",
 }
 
-const image3: BrechImage = {
+const image3: BreachImage = {
   alt: "changing variable",
   url: "/image3.png",
   description:
-    "Now you can try modify the score variable to want you want, 20000 for example.\nOnly 4 possibilities, its will not take a lot of time.",
+    "Now you can try to modify the score variable as you wish, for example, to 20000.\nThere are only 4 possibilities, so it won't take much time.",
 }
 
-const image4: BrechImage = {
+const image4: BreachImage = {
   alt: "application in other mode",
   url: "/image5.png",
   description:
-    "You can do that in every not secured variables, like poison, or fire in boss guild.\nBut i guess you can find for vulnerables variables you can set.",
+    "You can do this for all the unsecured variables, such as poison or fire in the guild boss mode.\nI imagine you can find more by searching a bit.",
 }
 
-export const firstcConfirmedBrech: ConfirmedBrechs = {
+export const firstcConfirmedBrech: ConfirmedBreachs = {
   title: "Vulnerables variables",
   description:
-    "A lot of variables in the game are vulnerables, cause the are variables, when are you playing, they evolves during the game.\nYou can scan memories slots for modify them with open source easy to find free sofwares.",
+    "Many variables in the game are vulnerable because they are variables that evolve as you play the game.\nYou can scan memory slots to modify them using open-source, easy-to-find free software",
   images: [image1, image2, image3, image4],
   solution:
-    "Modify this variables to be constants.\nFor exemple if you hit twice, the unique variable score, before score = score + hit_1, then score = score + hit_2.\nFix that with a list, score will be [hit_1, hit_2], eatch hit will be in constants different memories slots, they cant be found cause they will not evolve, like the 118k possibilities i found with the 1st scan.",
+    "Modify these variables to be constants.\nFor example, if you hit twice, the unique variable 'score' first with 'score = score + hit_1,' and then 'score = score + hit_2.'\nFix this by using a list.\n'score' will become [hit_1, hit_2].\nEach hit will be stored in different memory slots as constants, making them untraceable because they won't evolve, unlike the 118k possibilities I found with the first scan.",
 }

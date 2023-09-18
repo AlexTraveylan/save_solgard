@@ -9,10 +9,9 @@ export function OurMission() {
         <div className="min-w-[360px] max-w-[500px] p-2">
           <h1 className="text-center font-bold">Our Mission</h1>
           <p className="mt-2">
-            As Embla stands tall against the icy threats of Solgard, we too, are committed to shielding players and developers against the cold
-            winds of security threats. At Solgard Security Central, we envision a world where every player can indulge in the gripping tales of
-            Solgard without a shred of concern about their digital safety. Let's join forces, ensuring that the only frost we encounter is in the
-            game and not in our systems! Embark on your adventure in Solgard, and let us handle the security. Because every hero needs a shield.
+            If you're a developer, we invite you to join us in maintaining this site and adding new features. You can contribute by submitting pull
+            requests and actively participating in the project on GitHub. Your expertise and contributions are highly valued as we work together to
+            enhance this platform.
           </p>
           <div className="flex justify-center mt-5">
             <Link href="https://github.com/AlexTraveylan/save_solgard" target="_blank">

@@ -1,14 +1,14 @@
 export type Statut = "validated" | "rejected" | "pending"
 
-export type BrechImage = {
+export type BreachImage = {
   description: string
   url: string
   alt: string
 }
 
-export type ConfirmedBrechs = {
+export type ConfirmedBreachs = {
   title: string
   description: string
-  images: BrechImage[]
+  images: BreachImage[]
   solution: string
 }
