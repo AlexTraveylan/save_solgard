@@ -48,10 +48,10 @@ export function GamePresentation() {
               ))}
             </ul>
             <div className="flex gap-5 justify-center mt-5">
-              <Link href="/confirmed_brechs">
+              <Link href="/confirmed_breachs">
                 <Button>Explore</Button>
               </Link>
-              <Link href="/signal_brechs">
+              <Link href="/signal_breachs">
                 <Button>Share</Button>
               </Link>
             </div>
