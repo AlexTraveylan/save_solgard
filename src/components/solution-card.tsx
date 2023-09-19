@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ConfirmedBreachs } from "@/lib/type"
+import { ConfirmedBreach } from "@/lib/type"
 
-export function SolutionCard({ breach }: { breach: ConfirmedBreachs }) {
+export function SolutionCard({ breach }: { breach: ConfirmedBreach }) {
   return (
     <Card className="min-w-[350px] w-full max-w-[700px]">
       <CardHeader>

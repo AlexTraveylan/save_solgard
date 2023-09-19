@@ -6,7 +6,7 @@ export type BreachImage = {
   alt: string
 }
 
-export type ConfirmedBreachs = {
+export type ConfirmedBreach = {
   title: string
   description: string
   images: BreachImage[]

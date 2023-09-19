@@ -1,9 +1,9 @@
-import { ConfirmedBreachs } from "@/lib/type"
+import { ConfirmedBreach } from "@/lib/type"
 
 import { ImageBrechCard } from "@/components/image-brech-card"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
-export function ConfirmBrechCard({ breach }: { breach: ConfirmedBreachs }) {
+export function ConfirmBrechCard({ breach }: { breach: ConfirmedBreach }) {
   return (
     <Card className="min-w-[350px] w-full max-w-[700px]">
       <CardHeader>

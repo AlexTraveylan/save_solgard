@@ -1,4 +1,4 @@
-import { BreachImage, ConfirmedBreachs } from "./type"
+import { BreachImage, ConfirmedBreach } from "./type"
 
 const image1: BreachImage = {
   alt: "1st hit",
@@ -27,7 +27,7 @@ const image4: BreachImage = {
     "You can do this for all the unsecured variables, such as poison or fire in the guild boss mode.\nI imagine you can find more by searching a bit.",
 }
 
-export const firstcConfirmedBrech: ConfirmedBreachs = {
+export const firstcConfirmedBrech: ConfirmedBreach = {
   title: "Vulnerables variables",
   description:
     "Many variables in the game are vulnerable because they are variables that evolve as you play the game.\nYou can scan memory slots to modify them using open-source, easy-to-find free software",

@@ -20,7 +20,7 @@ export default async function SignalBrechPage() {
           <ArrowLeft className="hover:scale-110" />
         </Link>
         <CardHeader>
-          <CardTitle>Report new brech</CardTitle>
+          <CardTitle>Report new breach</CardTitle>
           <CardDescription>This is our page for reporting signal breaches you've found.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-2">
