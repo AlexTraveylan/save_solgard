@@ -11,8 +11,6 @@ export default async function SignalBrechPage() {
     throw new Error("Cannot get problems")
   }
 
-  const nbrProblems = problems.length
-
   return (
     <div className="flex flex-col m-2 gap-5 items-center">
       <Card className="min-w-[350px] w-full max-w-[700px] relative">
@@ -24,8 +22,8 @@ export default async function SignalBrechPage() {
           <CardDescription>This is our page for reporting signal breaches you've found.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-2">
-          <Link href="/admin">{nbrProblems} problem(s) have been submited ...</Link>
-          {nbrProblems > 1 && <p>Our admin is looking for them</p>}
+          <Link href="/admin">{problems.length} problem(s) have been submited ...</Link>
+          {problems.length > 1 && <p>Our admin is looking for them</p>}
 
           <div>
             <h2 className="font-semibold">Share your breach to help us</h2>
